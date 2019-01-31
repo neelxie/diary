@@ -21,7 +21,7 @@ class User:
 
 
     
-    def to_dict(self, user):
+    def to_dict(self):
         return {
             "first_name": self.base.first_name,
             "last_name": self.base.last_name,
