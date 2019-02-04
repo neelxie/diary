@@ -1,0 +1,124 @@
+.main{
+    margin: 0 0;
+    display: flex;
+    /* flex-flow: column; */
+    flex-direction: column;
+    height: 97vh;
+}
+.top{
+    height: 13%;
+    width: 100%;
+    /* margin-top: 0;
+    padding-top: 0; */
+    overflow: hidden;
+    /* background-color: rebeccapurple; */
+}
+.top h3{
+    text-align: center;
+    font-size: 210%;
+    font-family: cursive;
+    color: #ff652f;
+    margin-top: -5px;
+}
+.navbar{
+    height: 5%;
+    width: 100%;
+    /* background-color: rosybrown; */
+    border: 1px solid #ff652f;
+    background-color: #ff652f;
+    color: white;
+    overflow: hidden;
+}
+.navbar a{
+    float: right;
+    text-decoration: none;
+    padding: 0.5%;
+    text-align: center;
+    padding-right: 10%;
+    font-family: cursive;
+    
+}
+.navbar a:hover{
+    color: white;
+    background-color: #ff652f;
+    
+}
+ul{
+    list-style-type: none;
+}
+.first_span{
+    font-size: 18px;
+}
+.month{
+    padding: 70px 25px;
+    width: 60%;
+    background-color: #1abc9c;
+    text-align: center;
+    overflow: visible;
+}
+.month ul{
+    margin: 0;
+    padding: 0;
+}
+.month ul li{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.month .prev{
+    float: left;
+    padding-top: 10px;
+}
+.month .next{
+    float: right;
+    padding-top: 10px;
+}
+.weekdays{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+.weekdays li{
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+.days{
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+.days li{
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 3px;
+    font-size: 12px;
+    color: #777;
+}
+.days li .active{
+    padding: 5px;
+    background: #1abc9c;
+    color: white;
+}
+.other{
+    height: 77%;
+    width: 95%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* background-color: red; */
+    margin: 0 auto;
+    box-shadow: 1px 7px 5px 3px rgb(197, 171, 171);
+}
+footer{
+    height: 5%;
+    width: 85%;
+    margin: 0 auto;
+    /* background-color: blue; */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0.7%;
+}
