@@ -1,0 +1,78 @@
+.main{
+    width: 95vw;
+    height: 90vh;
+    box-shadow: 100px;
+    margin: auto;
+    margin-top: 4vh;
+    box-shadow: 0 0 10px black;
+    display: flex;
+}
+.main a{
+    text-decoration: none;
+}
+
+.brand{
+    width: 40%;
+    padding: 3%;
+    color: whitesmoke;
+    background-color: #000555;
+}
+.brand p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+.form{
+    width: 60%;
+    color: #000555;
+    background-color: bisque;
+    /* background-color: coral; */
+}
+.login{
+    height: 20%;
+    /* background-color: fuchsia; */
+    padding: 2px;
+    flex-flow: row;
+    overflow: visible;
+}
+.login h3{
+    text-align: center;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup{
+    height: 80%;
+    vertical-align: center;
+    /* background-color: greenyellow; */
+}
+.signup h3{
+    text-align: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: center;
+    justify-content: stretch;
+    width: 100%
+}
+input{
+    background-color: white;
+    margin: 0.9% 1.0%;
+    padding: 1%;
+    /* height: 25px; */
+    width: 28%;
+    /* height: 50%; */
+    border-radius: 3px;
+    /* padding-bottom: 10px; */
+    /* vertical-align: middle; */
+    font-size: 120%;
+    /* border: none; */
+    border: 1px solid #ff652f;
+}
+input:hover{
+    width: 31%;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: #ff652f;
+}
